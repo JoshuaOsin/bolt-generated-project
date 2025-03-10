@@ -1,0 +1,6 @@
+...
+const handleDeleteCard = (cardId) => {
+  setCards(cards.filter(card => card.id !== cardId));
+  // Call API to delete card from database
+};
+...
